@@ -32,3 +32,34 @@ bridge_fd 0
 
 
 - http://kuwox.blogspot.com/2016/08/proxmox-virtualizando-cambiando.html
+
+
+
+
+# samba
+samba
+
+
+
+sudo apt update
+sudo apt upgrade
+sudo apt install samba
+
+pwd
+/home/samba/agora-compartido
+sudo nano /etc/samba/smb.conf 
+
+systemctl status smbd --no-pager -l
+sudo service smbd restart
+sudo service smbd status
+
+sudo ufw allow samba
+
+
+
+
+windows powershell
+
+Get-SmbServerConfiguration | Select EnableSMB2Protocol
+
+

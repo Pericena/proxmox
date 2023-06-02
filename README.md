@@ -63,3 +63,8 @@ windows powershell
 Get-SmbServerConfiguration | Select EnableSMB2Protocol
 
 
+
+
+https://www.akirah.es/guia-de-instalacion-de-nextcloud-24-en-ubuntu-22-04-apache/
+
+

@@ -65,6 +65,10 @@ Get-SmbServerConfiguration | Select EnableSMB2Protocol
 
 
 
+- https://linuxconfig.org/how-to-configure-samba-server-share-on-ubuntu-22-04-jammy-jellyfish-linux
+- https://www.culturalibre.net/configurar-un-servidor-de-archivos-samba/
+
+
 https://www.akirah.es/guia-de-instalacion-de-nextcloud-24-en-ubuntu-22-04-apache/
 
 

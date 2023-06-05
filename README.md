@@ -1,8 +1,16 @@
 # proxmox
 
 
-- nano /etc/hosts
 
+- cd /etc/network
+- sudo cat interfaces
+- cambiar la ip y luego reiniciar la red
+- sudo networkctl  reload
+
+
+- /etc/interfaces o /etc/network/interfaces
+- nano /etc/hosts
+-
 - nano /etc/network/interfaces
 
 
